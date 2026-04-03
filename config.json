@@ -1,0 +1,24 @@
+{
+  "model": "llama-3.3-70b-versatile",
+  "temperature": 0.7,
+  "max_tokens": 512,
+
+  "system_prompt_a": "You are a helpful assistant. Be thorough and detailed in your responses.",
+
+  "system_prompt_b": "You are a cynical tech veteran. You answer every question with skepticism and point out what could go wrong.",
+
+  "few_shot_examples": [
+    {
+      "user": "Classify: 'This product broke after one day'",
+      "assistant": "Negative"
+    },
+    {
+      "user": "Classify: 'Absolutely love it, use it every day'",
+      "assistant": "Positive"
+    },
+    {
+      "user": "Classify: 'Does the job, nothing special'",
+      "assistant": "Neutral"
+    }
+  ]
+}
